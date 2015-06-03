@@ -1,0 +1,17 @@
+require 'optparse'
+
+options = {}
+
+OptionParser.new do |opts|
+
+  opts.banner = "Usage: werwer"
+
+  opts.on_tail("-h", "--help", "Help message.") do
+    puts opts
+    exit
+  end
+
+end.parse!
+
+p options
+p ARGV

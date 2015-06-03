@@ -6,11 +6,11 @@ require 'spawncamping/batman/version'
 Gem::Specification.new do |spec|
   spec.name          = "spawncamping-batman"
   spec.version       = Spawncamping::Batman::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Ancient"]
+  spec.email         = ["ancientjetstorm@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Some random kind of summary}
+  spec.description   = %q{Another random kind, but of a description. Without the of, but with the rest.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
